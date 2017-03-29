@@ -1,0 +1,18 @@
+{
+  "name": "ultrasonic-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sonicnet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "socket.io": "^1.7.3",
+    "ws": "^2.2.2"
+  }
+}
