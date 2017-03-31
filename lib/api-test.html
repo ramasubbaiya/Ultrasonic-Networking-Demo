@@ -1,0 +1,33 @@
+<html>
+
+<body>
+    <button style="font-size: 200px; color: white; background-color: red" id="message">You are too far!</button>
+</body>
+<script src="build/sonicnet.js"></script>
+<script src="./app.js"></script>
+<!--<script>
+    var ALPHABET = ' abcdeghijklmnopqrstuvwxyz';
+    var MESSAGE = 'rama';
+    var button = document.querySelector('#message');
+    button.addEventListener('click', onButton);
+
+    function onButton() {
+        socket = new Sonicnet.SonicSocket({
+            alphabet: ALPHABET,
+            charDuration: 0.2
+        });
+        console.log(MESSAGE);
+        socket.send(MESSAGE);
+    }
+    // On some other machine:
+    server = new Sonicnet.SonicServer({
+        alphabet: ALPHABET
+    });
+    server.on('message', function(message) {
+        // message is '31415'. Do something with it.
+        console.log(message);
+    });
+    server.start();
+</script>-->
+
+</html>
